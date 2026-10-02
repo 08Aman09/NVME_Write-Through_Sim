@@ -1,0 +1,24 @@
+# Build artifacts
+*.o
+nvme_wt_sim
+
+# Temporary backing files
+*.img
+*.bin
+
+# Runtime logs
+*.log
+
+# Generated benchmark CSV files
+results/*.csv
+
+# Generated charts
+results/*.png
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
